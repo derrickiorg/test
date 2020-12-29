@@ -11,8 +11,8 @@ jobs:
       - image: circleci/welcome-config-image:0.2
     steps:
       - run:
-        name: Test job
-        command: echo "test job abc"
+          name: Test job
+          command: echo "test job abc"
 
 # Orchestrate or schedule a set of jobs
 workflows:
